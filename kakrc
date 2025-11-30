@@ -3,8 +3,10 @@ addhl global/ number-lines -relative
 addhl global/ show-matching
 
 set -add global ui_options terminal_assistant=none
-set global modelinefmt '{{mode_info}} %val{cursor_line}:%val{cursor_char_column} {{context_info}}%val{bufname} %val{session}'
+set -add global ui_options terminal_enable_mouse=false
 set global completers word=all
+set global modelinefmt '{{mode_info}} %val{cursor_line}:%val{cursor_char_column} {{context_info}}%val{bufname} %val{session}'
+set global startup_info_version 20250603
 
 map global goto n '<esc>:bn<ret>' -docstring 'next buffer'
 map global goto p '<esc>:bp<ret>' -docstring 'previous buffer'
