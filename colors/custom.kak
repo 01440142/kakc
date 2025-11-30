@@ -24,15 +24,15 @@ face global list default
 
 # builtin faces
 face global Default default,default
-face global PrimarySelection default+u 
-face global SecondarySelection default+u
+face global PrimarySelection default+r 
+face global SecondarySelection default+r
 face global PrimaryCursor default+r
 face global SecondaryCursor default+r
-face global PrimaryCursorEol default+r
+face global PrimaryCursorEol default+br
 face global SecondaryCursorEol default+r
 face global LineNumbers default
 face global LineNumberCursor default
-face global MenuForeground default
+face global MenuForeground default+r
 face global MenuBackground default
 face global MenuInfo default
 face global Information default
@@ -45,6 +45,6 @@ face global StatusLineInfo default
 face global StatusLineValue default
 face global StatusCursor default
 face global Prompt default
-face global MatchingChar default+u
+face global MatchingChar default+r
 face global Whitespace default
 face global BufferPadding default
